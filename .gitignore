@@ -1,0 +1,12 @@
+
+# Private conversation data
+conversation_log.json
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
