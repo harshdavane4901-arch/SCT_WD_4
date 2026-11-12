@@ -46,22 +46,22 @@ class StudentStudyAssistant:
             return f"Nice to meet you, {self.name}! What subject would you like to study?"
 
         # Step 2: Remember the selected subject.
-# Do not treat "study tips" as a subject.
-if (
-    lower_message.startswith("study ")
-    and not lower_message.startswith("study tip")
-):
-    new_subject = message[6:].strip().rstrip("?.!")
+        if (
+            lower_message.startswith("study ")
+            and not lower_message.startswith("study tip")
+        ):
+            new_subject = message[6:].strip().rstrip("?.!")
 
-    if not new_subject:
-        return "Please enter a subject, for example: study Python."
+            if not new_subject:
+                return "Please enter a subject, for example: study Python."
 
-    self.subject = new_subject.title()
+            self.subject = new_subject.title()
 
-    return (
-        f"Great! I will help you with {self.subject}. "
-        "You can ask for an explanation, a study tip, or a quiz."
-    )
+            return (
+                f"Great! I will help you with {self.subject}. "
+                "You can ask for an explanation, a study tip, or a quiz."
+            )
+
         # Step 3: Handle greetings.
         if any(lower_message.startswith(g.lower()) for g in self.greetings):
             if self.name:
