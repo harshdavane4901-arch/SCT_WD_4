@@ -1,0 +1,35 @@
+
+STUDENT STUDY ASSISTANT
+SAMPLE CONVERSATION
+
+User: Hi
+
+Assistant: Hello! I am your Student Study Assistant.
+What is your name?
+
+User: My name is Neha
+
+Assistant: Nice to meet you, Neha!
+What subject would you like to study?
+
+User: Study Python
+
+Assistant: Great! I will help you with Python.
+You can ask for an explanation, a study tip, or a quiz.
+
+User: Explain
+
+Assistant: Let's learn about Python.
+First, understand the basic definition.
+Next, study one example.
+Finally, explain the concept in your own words.
+
+User: Quiz
+
+Assistant: Let's practise Python!
+Tell me one important concept you have learned,
+and I will help you review it.
+
+User: Exit
+
+Assistant: Goodbye, Neha! Keep learning!
